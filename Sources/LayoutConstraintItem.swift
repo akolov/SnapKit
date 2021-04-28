@@ -47,7 +47,7 @@ extension LayoutConstraintItem {
         }
     }
     
-    internal var superview: ConstraintView? {
+    public var superview: ConstraintView? {
         if let view = self as? ConstraintView {
             return view.superview
         }
