@@ -30,7 +30,7 @@
 
 public class ConstraintMakerRelatable {
     
-    internal let description: ConstraintDescription
+    public let description: ConstraintDescription
     
     internal init(_ description: ConstraintDescription) {
         self.description = description
